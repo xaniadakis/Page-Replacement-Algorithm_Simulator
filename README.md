@@ -1,7 +1,9 @@
 # Page Replacement Algorithm Simulator
 
 In this project, I  examine the behaviour of applications in relation to
-replacement algorithms. My application simulates the behaviour of the
+replacement algorithms. 
+
+My application simulates the behaviour of the
 Memory Management System based on real reports' trace. There are two real trace 
 files present in the repository. Each file contains a number of lines
 where hexadecimal memory reports followed by them are presented
