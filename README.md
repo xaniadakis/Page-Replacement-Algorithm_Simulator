@@ -34,6 +34,8 @@ The program accepts as arguments:
 ⚪ an optional argument: the maximum number of reports to be examined from the traces' files. 
 
 
+
+
 Upon completion of the simulation statistics such as: 
 
 ⚪ writes to disk, 
@@ -47,6 +49,8 @@ Upon completion of the simulation statistics such as:
 ⚪ memory frames 
 
 are displayed.
+
+
 
 The application gets compiled as follows:
 
