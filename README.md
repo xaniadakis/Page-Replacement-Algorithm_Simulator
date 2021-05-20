@@ -25,26 +25,26 @@ so that in the main memory there are pages from both processes.
 
 The program accepts as arguments:
 
-the replacement algorithm  [ 1 :LRU, 2 :Second Chance ]
+⚫ the replacement algorithm  [ 1 :LRU, 2 :Second Chance ]
 
-the number of frames in the main memory,
+⚫ the number of frames in the main memory,
 
-the number of reports q and
+⚫ the number of reports q and
 
-an optional argument: the maximum number of reports to be examined from the traces' files. 
+⚫ an optional argument: the maximum number of reports to be examined from the traces' files. 
 
 
 Upon completion of the simulation statistics such as: 
 
-writes to disk, 
+⚫ writes to disk, 
 
-reads from disk, 
+⚫ reads from disk, 
 
-page faults, 
+⚫ page faults, 
 
-entries that got examined from each of the traces' file and 
+⚫ entries that got examined from each of the traces' file and 
 
-memory frames 
+⚫ memory frames 
 
 are displayed.
 
