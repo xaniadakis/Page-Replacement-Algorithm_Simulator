@@ -60,6 +60,6 @@ The application can be run as follows:
 
     ./project <replacementAlgorithm[1/2]> <memoryFrames> <q_traces> [<maxTraces>]
     
-{ example of execution parameters: ./a.out 1 10 10 10 }
+example of execution command: ./a.out 1 10 10 10 
 
 
