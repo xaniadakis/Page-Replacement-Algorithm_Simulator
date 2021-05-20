@@ -22,12 +22,30 @@ is recorded in the appropriate metrics of the simulation. The
 program alternately reads sets of reports (number q) from each traces' file
 so that in the main memory there are pages from both processes.
 
+
 The program accepts as arguments:
-the replacement algorithm, 
-the number of frames in the main memory and 
-the number of reports q. 
-One could also define the maximum number of reports to be examined from
-the traces' files. 
+the replacement algorithm  [ 1 :LRU, 2 :Second Chance ]
+the number of frames in the main memory, 
+the number of reports q and
+an optional argument: the maximum number of reports to be examined from the traces' files. 
+
+
 Upon completion of the simulation statistics such as: 
-writes to disk, reads from disk, page faults, entries that got examined from each of the traces' file and memory frames 
+writes to disk, 
+reads from disk, 
+page faults, 
+entries that got examined from each of the traces' file and 
+memory frames 
 are displayed.
+
+The application gets compiled as follows:
+
+    make clean all
+
+The application can be run as follows:
+
+    ./project <replacementAlgorithm[1/2]> <memoryFrames> <q_traces> [<maxTraces>]
+    
+{ example of execution parameters: ./a.out 1 10 10 10 }
+
+
