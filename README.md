@@ -36,8 +36,7 @@ reads from disk,
 page faults, 
 entries that got examined from each of the traces' file and 
 memory frames 
-
-,are displayed.
+are displayed.
 
 The application gets compiled as follows:
 
